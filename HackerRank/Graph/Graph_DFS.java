@@ -1,4 +1,4 @@
-package Algorithms.AlgorithmsAndDataStructures.HackerRank;
+package Algorithms.AlgorithmsAndDataStructures.HackerRank.Graph;
 
 import java.util.HashMap;
 import java.util.HashSet;
