@@ -11,8 +11,7 @@ public class Graph_DFS {
     private LinkedList<Integer> adj[];
 
     // Constructor
-    public Graph_DFS(int v)
-    {
+    public Graph_DFS(int v) {
         vertices = v;
         adj = new LinkedList[v];
         for (int i=0; i<v; ++i)
@@ -20,14 +19,13 @@ public class Graph_DFS {
     }
 
     //Function to add an edge into the graph
-    public void addEdge(int v, int w)
-    {
+    public void addEdge(int v, int w) {
+
         adj[v].add(w);  // Add w to v's list.
     }
 
     // A function used by DFS
-    public void DFSUtil(int v,boolean visited[])
-    {
+    public void DFSUtil(int v,boolean visited[]) {
         // Mark the current node as visited and print it
         visited[v] = true;
         System.out.print(v+" ");
@@ -43,8 +41,7 @@ public class Graph_DFS {
     }
 
     // The function to do DFS traversal. It uses recursive DFSUtil()
-    public void DFS(int v)
-    {
+    public void DFS(int v) {
         // Mark all the vertices as not visited (by default)
         boolean visited[] = new boolean[vertices];
 
@@ -52,8 +49,7 @@ public class Graph_DFS {
         DFSUtil(v, visited);
     }
 
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         Graph_DFS g = new Graph_DFS(4);
 
         g.addEdge(0, 1);
