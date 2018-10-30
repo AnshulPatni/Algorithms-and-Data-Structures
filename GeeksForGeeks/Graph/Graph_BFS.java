@@ -1,4 +1,4 @@
-package Algorithms.AlgorithmsAndDataStructures.GeeksForGeeks.Graph;
+package GeeksForGeeks.Graph;
 
 import java.util.Iterator;
 import java.util.LinkedList;
