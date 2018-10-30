@@ -1,4 +1,4 @@
-package Algorithms.AlgorithmsAndDataStructures.GeeksForGeeks.Sorting;
+package GeeksForGeeks.Sorting;
 
 public class QuickSort {
 
