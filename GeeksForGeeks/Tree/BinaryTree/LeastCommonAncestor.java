@@ -1,4 +1,4 @@
-package Algorithms.AlgorithmsAndDataStructures.GeeksForGeeks.Tree.BinaryTree;
+package GeeksForGeeks.Tree.BinaryTree;
 
 public class LeastCommonAncestor {
 
