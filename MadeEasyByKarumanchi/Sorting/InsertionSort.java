@@ -1,4 +1,4 @@
-package Algorithms.AlgorithmsAndDataStructures.MadeEasyByKarumanchi.Sorting;
+package MadeEasyByKarumanchi.Sorting;
 
 public class InsertionSort {
 
