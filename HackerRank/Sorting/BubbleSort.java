@@ -1,4 +1,4 @@
-package Algorithms.AlgorithmsAndDataStructures.HackerRank.Sorting;
+package HackerRank.Sorting;
 
 public class BubbleSort {
 
